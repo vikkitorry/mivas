@@ -1,0 +1,118 @@
+.body-home {
+    background: rgb(83,77,72);
+    background: radial-gradient(circle, rgba(83,77,72,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link:hover, .f-cont:hover {
+    color:rgb(251, 255, 20);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: rgb(251, 255, 20);
+}
+
+.sale {
+    color: red;
+}
+
+.promokod {
+    color: red;
+    font-weight: 1000;
+}
+
+.navbar-toggler {
+    background-color: rgb(251, 255, 20);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    margin: 0.5em; 
+}
+
+p.delivery {
+    color: black;
+}
+
+.pay-delivery {
+    color: black;
+}
+
+.product-group {
+    color: rgb(64, 62, 62);
+    text-decoration: none;
+}
+
+.product-group:hover {
+    color:red;
+    text-decoration: none;
+}
+
+
+.f-cont {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer {
+    background-color: rgb(10, 10, 10);
+}
+
+.ft-logos {
+    width: 40px;
+    margin-inline: 1em;
+}
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:100%;
+    position:absolute;
+}
+
+/*создать условия для маленьких экранов,
+чтоб значки становились по центру*/
+
+.media-links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+    .media-links {
+        justify-content: center;  
+    }
+}
+
+.dgf {
+    justify-content: ;
+    align-items: ;
+}
+
+/*добавляю кнопку скролла*/
+
+.up-button {
+    z-index: 10;
+    color:white;
+    background-color: rgb(53, 53, 53);
+    position: fixed;
+    
+}
